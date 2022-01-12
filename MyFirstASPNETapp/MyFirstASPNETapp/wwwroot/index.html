@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>What a Creative Title</title>
+
+    <!--tab icon-->
+    <link rel="icon" href="img/burger.png">
+
+    <!--links to stylesheets-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mystyles.css">
+
+</head>
+<body>
+
+    <!--header-->
+    <header class="masthead">
+        <div>
+            <h2 class="text-muted">Preferred Name: Kirsten</h2>
+            <h1>What a Creative Title</h1>
+            <!--picture of me hiking-->
+            <div><img src="img/hiking.png" class="border, rounded"></div><br />
+        </div>
+    </header>
+
+
+    <!--paragraph about class goals-->
+    <div>
+        <br /><br /><br /><br />
+        <h3>What I Hope to Get Out of IS 413:</h3><br />
+        <p>
+            I want to become comfortable coding in ASP.NET, which I see as another hard skill on my resume to show I don't just know how to code in one
+            language, but also how to apply the principles of coding to multiple languages. I also want to become more comfortable understanding the
+            MVC model, how to more efficently build websites, and how servers work.
+        </p>
+    </div>
+
+    <!--top jobs I want-->
+    <div>
+        <h3>Top 3 Jobs I am Interested In:</h3><br />
+        <ol>
+            <li>Product Manager</li>
+            <li>Business Analyst</li>
+            <li>Database Manager</li>
+        </ol>
+    </div>
+
+    <!--final grade claculator-->
+    <div class="calculator, border">
+        <h3>Grade Calculator:</h3><br />
+        <p>
+            Enter the percentage scored for each grade category below to calculate your final grade.
+        </p><br />
+
+        <form>
+            <label for="assignments">Assignments:</label>
+            <input type="number" id="assignments" name="assignments" min="0" max="100"><br>
+            <label for="gp">Group Project: </label>
+            <input type="number" id="gp" name="gp" min="0" max="100"><br>
+            <label for="quizzes">Quizzes: </label>
+            <input type="number" id="quizzes" name="quizzes" min="0" max="100"><br>
+            <label for="exams">Exams: </label>
+            <input type="number" id="exams" name="exams" min="0" max="100"><br>
+            <label for="intex">INTEX: </label>
+            <input type="number" id="intex" name="intex" min="0" max="100"><br><br />
+            <button id="calculate" type="button" class="btn btn-primary">Calculate Grade</button>
+        </form>
+    </div>
+    <div></div>
+
+    <!--links to jquery and js files-->
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/calculator.js"></script>
+
+</body>
+</html>
